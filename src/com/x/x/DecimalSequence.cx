@@ -2,7 +2,10 @@ package com.x.x;
 
 task DecimalSequence {
 
+	u8 b;
+
 	void loop() {
 		idle(1);
+		b++;
 	}
 }
