@@ -1,0 +1,10 @@
+package com.x.x;
+
+import com.synflow.uart.UartBaud.*;
+
+task Decimal32ByteSeq {
+
+	void loop() {
+		idle(DIVISOR);
+	}
+}

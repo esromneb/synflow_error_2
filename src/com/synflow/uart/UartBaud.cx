@@ -1,0 +1,9 @@
+package com.synflow.uart;
+
+bundle UartBaud {
+  u8 CLK_IN_MHZ = 36;    // clock in MHz
+  u32 BAUD_RATE = 1250000;
+
+  u32 DIVISOR = CLK_IN_MHZ * 1000 * 1000 / BAUD_RATE;
+  u32 DIVISOR_2 = DIVISOR / 2;
+}

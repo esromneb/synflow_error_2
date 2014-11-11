@@ -1,0 +1,8 @@
+package com.x.x;
+
+task DecimalSequence {
+
+	void loop() {
+		idle(1);
+	}
+}
