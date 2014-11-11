@@ -5,6 +5,7 @@ import com.synflow.uart.UartBaud.*;
 task Decimal32ByteSeq {
 
 	void loop() {
-		idle(DIVISOR);
+		idle(DIVISOR); // Doesn't work
+		//idle(CLK_IN_MHZ); // works great
 	}
 }
